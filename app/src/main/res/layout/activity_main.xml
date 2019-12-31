@@ -8,11 +8,18 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnClickMe"
+    android:id="@+id/btnClickMe"
+    android:layout_width="100dp"
+    android:layout_height="71dp"
+    android:width="30dp"
+    android:text="Dolu Konteynırlar"
+    tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/btnEmptyContainer"
         android:layout_width="100dp"
         android:layout_height="71dp"
         android:width="30dp"
-        android:text="Listeyi Yenile!"
+        android:text="Toplanmış Konteynırlar"
         tools:ignore="MissingConstraints" />
 
     <ListView
